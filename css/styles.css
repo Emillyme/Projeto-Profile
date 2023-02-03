@@ -126,3 +126,40 @@ footer{
     height: 32px;
     margin: 10px;
 }
+
+@media(min-width: 576px) {
+    
+    html{
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 768px) {
+    
+    html{
+        font-size: 24px;
+    }
+
+    .portfolio-item{
+        width: 280px;
+    }
+
+    .nav-main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-brand{
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .nav-container{
+        display: flex;
+    }
+
+    .menu-items li{
+        font-size: 18px;
+    }
+}
